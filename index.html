@@ -21,13 +21,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         
-		<!-- CSS -->
+		<!-- Version 1 
         <link rel="stylesheet" href="css/style.css" />
 	    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+        
+        <!-- Version 2 -->
+        <link rel="stylesheet" href="css/main.css" />
+
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+        
         
 	</head>
+    <!-- Version 1 
 	<body>
         <div class="container">
             <div class="col-sm-6 col-offset-3 centered text-center">
@@ -47,14 +54,48 @@
             
 
         </div>
+	</body> -->
+    <body class="is-loading">
 
-		<!-- 
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>DoWon Kim</h1>
+							<p>Mathematics & CS @ Princeton University</p>
+						</header>
+					
+						<footer>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/dowon-kim-26958824" class="fa-linkedin"><span class="link_text">LinkedIn</span></a></li>
+								<li><a href="https://www.dropbox.com/s/fefxhffn7qbjr9g/DoWon_Kim_Resume.pdf?dl=0" class="fa-dropbox" target=_blank><span class="link_text">Resume</span></a></li>
+							</ul>
+                            <ul class="icons">
+								<li><a href="mailto:dowon@princeton.edu" class="fa-envelope"><span class="link_text">Email</span></a></li>
+								<li><a href="https://www.github.com/dodokim" class="fa-github"><span class="link_text">GitHub</span></a></li>
+
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; DoWon Kim 2016</li><li>Image: Del Mar Beach</li>
+						</ul>
+					</footer>
+
+			</div>
+
 			<script>
 				if ('addEventListener' in window) {
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
-			</script> -->
+			</script>
 
 	</body>
 </html>
