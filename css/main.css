@@ -43,10 +43,10 @@ ol, ul {
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/bg.jpg"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/bg1.jpg"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg1.jpg");
 		background-image: url("images/bg.jpg"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/bg.jpg"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/bg.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/bg1.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg1.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position:center;
@@ -64,10 +64,10 @@ ol, ul {
 			opacity: 0;
 			z-index: 1;
 			background-color: #ffffff;
-			background-image: url("images/bg.jpg"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/bg.jpg"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/bg.jpg"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/bg.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/bg1.jpg"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/bg1.jpg"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/bg1.jpg"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/bg1.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center center;
@@ -373,11 +373,13 @@ ol, ul {
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
-		padding: 3em 3em 3em 3em ;
+        padding-top: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+
 		background: #ffffff;
 		border-radius: 4px;
-		background: rgb(54, 25, 25); /* Fall-back for browsers that don't
-                                    support rgba */
+		background: rgb(54, 25, 25); 
     	background: rgba(54, 25, 25, .5);
 		cursor: default;
 		opacity: 0.95;
