@@ -1,31 +1,19 @@
-@charset "UTF-8";
-@import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, footer, header, section, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;  
+}
 
-	html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, footer, header, section, nav {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-	}
+footer, header, nav, section {
+    display: block;
+}
 
-	footer, header, nav, section {
-		display: block;
-	}
-
-	body {
-		line-height: 1;
-	}
-
-	ol, ul {
-		list-style: none;
-	}
-
-	body {
-		-webkit-text-size-adjust: none;
-	}
+ol, ul {
+    list-style: none;
+}
 
 /* Settings */
 
@@ -59,9 +47,9 @@
 		background-image: url("images/bg.jpg"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/bg.jpg"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/bg.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-repeat: no-repeat,			no-repeat;
+		background-repeat: no-repeat;
 		background-size: cover;
-		background-position:center center;
+		background-position:center;
 		background-attachment: fixed;
 	}
 
@@ -87,10 +75,6 @@
 			-webkit-transition: opacity 1.75s ease-out;
 			-ms-transition: opacity 1.75s ease-out;
 			transition: opacity 1.75s ease-out;
-		}
-
-		body.is-loading:after {
-			opacity: 1;
 		}
 
 /* Type */
@@ -318,12 +302,14 @@
 					}
 
 					ul.icons li a:before {
-						color: #ffffff;
-						text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
+						color: #dbd1d1;
+						
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+                        color: #ff7496;
+                        text-shadow: 0.5px 0px 0px #ff7496, -0.5px 0px 0px #ff7496, 0px 0.5px 0px #ff7496, 0px -.5px 0px #ff7496;
+                        
 					}
 
 					ul.icons li a:before {
@@ -452,10 +438,10 @@
 
 		body.is-loading #main {
 			opacity: 0;
-			-moz-transform: rotateX(15deg);
-			-webkit-transform: rotateX(15deg);
-			-ms-transform: rotateX(15deg);
-			transform: rotateX(15deg);
+			-moz-transform: rotateX(20deg);
+			-webkit-transform: rotateX(20deg);
+			-ms-transform: rotateX(20deg);
+			transform: rotateX(20deg);
 		}
 
 /* Footer */
